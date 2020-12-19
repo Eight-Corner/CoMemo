@@ -5,9 +5,17 @@ My_Project
 
 <!-- [Corner 헬스 프로젝트](https://github.com/Eight-Corner/mine/tree/master/DB_Sign3_forMac)의 소스코드입니다.  -->
 
-<!-- p.s 도움이 될지 모르겠지만 제 경우 DB를 이용하였기 때문에, 프로그램이 정상 구동되지 않을 것입니다. --> :seedling: :blush:
+<!-- p.s 도움이 될지 모르겠지만 제 경우 DB를 이용하였기 때문에, 프로그램이 정상 구동되지 않을 것입니다. --> :seedling: :blush:   
+Conrer 
+   
+---  
+![SimultaorImg](https://github.com/Eight-Corner/CoMemo/images/Simulator.png)  
+### 🌱Build Note - 2020-12-19
+* Memo Class 구현
+* Memo List 구현
 
-:seedling:
+ 
+
 ----------
 
 ![mineLogo](https://cdn.iconscout.com/icon/premium/png-256-thumb/memo-paper-872391.png)
