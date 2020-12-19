@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		630A2B9D258DFF9400A85A9A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A2B9C258DFF9400A85A9A /* Model.swift */; };
+		630A2BA0258E020200A85A9A /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A2B9F258E020200A85A9A /* MemoListTableViewController.swift */; };
 		6352D778258769A400C059B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6352D777258769A400C059B9 /* AppDelegate.swift */; };
 		6352D77A258769A400C059B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6352D779258769A400C059B9 /* SceneDelegate.swift */; };
 		6352D77C258769A400C059B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6352D77B258769A400C059B9 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		630A2B9C258DFF9400A85A9A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		630A2B9F258E020200A85A9A /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		6352D774258769A400C059B9 /* CoMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6352D777258769A400C059B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6352D779258769A400C059B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				6352D785258769A600C059B9 /* LaunchScreen.storyboard */,
 				6352D788258769A600C059B9 /* Info.plist */,
 				6352D780258769A400C059B9 /* CoMemo.xcdatamodeld */,
+				630A2B9F258E020200A85A9A /* MemoListTableViewController.swift */,
 			);
 			path = CoMemo;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				6352D778258769A400C059B9 /* AppDelegate.swift in Sources */,
 				6352D77A258769A400C059B9 /* SceneDelegate.swift in Sources */,
 				6352D782258769A400C059B9 /* CoMemo.xcdatamodeld in Sources */,
+				630A2BA0258E020200A85A9A /* MemoListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
