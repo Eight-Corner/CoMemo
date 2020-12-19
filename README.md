@@ -9,7 +9,7 @@ My_Project
 Conrer 
    
 ---  
-![SimultaorImg](https://github.com/Eight-Corner/CoMemo/images/Simulator.png)  
+![SimultaorImg](https://github.com/Eight-Corner/CoMemo/blob/main/images/Simulator.png?raw=true)  
 ### 🌱Build Note - 2020-12-19
 * Memo Class 구현
 * Memo List 구현
