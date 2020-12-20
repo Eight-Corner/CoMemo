@@ -1,14 +1,20 @@
-My_Project
+**Conrer iOS Memo APP**
 ----------
 
-<!-- [Corner's Blog](https://iu-corner.tistory.com)의 사이트입니다.  -->
+[WEB BLOG](https://eight-corner.github.io/) <== Connect
 
-<!-- [Corner 헬스 프로젝트](https://github.com/Eight-Corner/mine/tree/master/DB_Sign3_forMac)의 소스코드입니다.  -->
+:seedling: :blush:   
+**Conrer iOS Memo APP**
 
-<!-- p.s 도움이 될지 모르겠지만 제 경우 DB를 이용하였기 때문에, 프로그램이 정상 구동되지 않을 것입니다. --> :seedling: :blush:   
-Conrer 
-   
----  
+---
+
+## Patch Note : 2020 - 12 - 20
+
+- Memo 날짜 포맷 설정
+
+
+
+---
 ![SimultaorImg](https://github.com/Eight-Corner/CoMemo/blob/main/images/Simulator.png?raw=true)  
 ### 🌱Build Note - 2020-12-19
 * Memo Class 구현
