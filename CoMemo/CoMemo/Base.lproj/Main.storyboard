@@ -22,7 +22,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="36" y="80"/>
+            <point key="canvasLocation" x="103" y="120"/>
         </scene>
         <!--CoMemo-->
         <scene sceneID="gBe-Z1-BfG">
@@ -110,8 +110,15 @@
                                 <action selector="close:" destination="3Rg-b4-FTv" id="tL4-rM-MF2"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="4rq-TQ-uHZ"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="4rq-TQ-uHZ">
+                            <connections>
+                                <action selector="save:" destination="3Rg-b4-FTv" id="jcL-8K-2JP"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="memoTextView" destination="5c9-ZX-k5f" id="ghy-2q-kgi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O1q-pe-e18" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

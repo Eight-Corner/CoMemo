@@ -14,7 +14,25 @@ class ComposeViewController: UIViewController {
     dismiss(animated: true, completion: nil)
     }
     
-
+    @IBOutlet weak var memoTextView: UITextView!
+    @IBAction func save(_ sender: Any) {
+    //
+        guard let memo = memoTextView.text,
+              memo.count > 0 else {
+            // 호출
+            alert(message: "메모를 입력하세요.")
+            return // 메소드 종료
+        }
+        
+        let newMemo = Memo(content: memo)
+        Memo.dummyMemoList.append(newMemo)
+        NotificationCenter.default.post(name: ComposeViewController.newMemoDidInsert, object: nil)
+        // 앱을 구성하는 모든 객체로 전달
+        
+        
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,4 +51,10 @@ class ComposeViewController: UIViewController {
     }
     */
 
+}
+
+extension ComposeViewController {
+    // notification
+    static let newMemoDidInsert = Notification.Name(rawValue: "newMemoDidInsert")
+    
 }
