@@ -78,15 +78,14 @@
         <!--새 메모-->
         <scene sceneID="AVD-S3-gEY">
             <objects>
-                <viewController id="3Rg-b4-FTv" customClass="ComposeTableViewController" customModule="CoMemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3Rg-b4-FTv" customClass="ComposeViewController" customModule="CoMemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bdO-jw-bcC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5c9-ZX-k5f">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="기훈이가 메모장을 만들었어요!🤪🤪🤪" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5c9-ZX-k5f">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -96,8 +95,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="5c9-ZX-k5f" firstAttribute="leading" secondItem="S5M-tp-0pa" secondAttribute="leading" id="0E8-bN-ZPq"/>
+                            <constraint firstItem="5c9-ZX-k5f" firstAttribute="top" secondItem="bdO-jw-bcC" secondAttribute="top" id="9ci-Ak-FYO"/>
+                            <constraint firstItem="5c9-ZX-k5f" firstAttribute="trailing" secondItem="S5M-tp-0pa" secondAttribute="trailing" id="Dnk-Qe-ySg"/>
+                            <constraint firstItem="5c9-ZX-k5f" firstAttribute="leading" secondItem="S5M-tp-0pa" secondAttribute="leading" id="GJr-QB-ZLf"/>
                             <constraint firstItem="5c9-ZX-k5f" firstAttribute="trailing" secondItem="S5M-tp-0pa" secondAttribute="trailing" id="L2y-tO-n1E"/>
                             <constraint firstItem="5c9-ZX-k5f" firstAttribute="top" secondItem="bdO-jw-bcC" secondAttribute="top" id="Lwo-UT-3I5"/>
+                            <constraint firstAttribute="bottom" secondItem="5c9-ZX-k5f" secondAttribute="bottom" id="PpG-Rc-WCv"/>
                             <constraint firstAttribute="bottom" secondItem="5c9-ZX-k5f" secondAttribute="bottom" id="qTc-Fe-mDW"/>
                         </constraints>
                     </view>
